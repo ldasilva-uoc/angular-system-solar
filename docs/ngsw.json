@@ -1,0 +1,120 @@
+{
+  "configVersion": 1,
+  "timestamp": 1622662668749,
+  "index": "/angular-system-solar/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angular-system-solar/favicon.ico",
+        "/angular-system-solar/index.html",
+        "/angular-system-solar/main.b80e8783019a6f28a3c3.js",
+        "/angular-system-solar/manifest.webmanifest",
+        "/angular-system-solar/polyfills.94daefd414b8355106ab.js",
+        "/angular-system-solar/runtime.7b63b9fd40098a2e8207.js",
+        "/angular-system-solar/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.1\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/angular-system-solar/assets/icons/icon-128x128.png",
+        "/angular-system-solar/assets/icons/icon-144x144.png",
+        "/angular-system-solar/assets/icons/icon-152x152.png",
+        "/angular-system-solar/assets/icons/icon-192x192.png",
+        "/angular-system-solar/assets/icons/icon-384x384.png",
+        "/angular-system-solar/assets/icons/icon-512x512.png",
+        "/angular-system-solar/assets/icons/icon-72x72.png",
+        "/angular-system-solar/assets/icons/icon-96x96.png",
+        "/angular-system-solar/assets/image/Tierra.png",
+        "/angular-system-solar/assets/image/VENUS.png",
+        "/angular-system-solar/assets/image/fondo.png",
+        "/angular-system-solar/assets/image/jupiteR.png",
+        "/angular-system-solar/assets/image/marte.png",
+        "/angular-system-solar/assets/image/mercurY.png",
+        "/angular-system-solar/assets/image/neptuno.png",
+        "/angular-system-solar/assets/image/noplanet.png",
+        "/angular-system-solar/assets/image/saturno.png",
+        "/angular-system-solar/assets/image/urano.png",
+        "/angular-system-solar/fondo.8b207337b32cf1831901.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "solar-api",
+      "patterns": [
+        "https:\\/\\/api\\.le-systeme-solaire\\.net\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 30,
+      "maxAge": 259200000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/angular-system-solar/assets/icons/icon-128x128.png": "0264fcc31e90b34b8642f8185dcdd96914f2688d",
+    "/angular-system-solar/assets/icons/icon-144x144.png": "7603e732cc46f817967bbbcc4c878945b147f869",
+    "/angular-system-solar/assets/icons/icon-152x152.png": "0de7a4ae42dff6b8dc1988de75be398b1e0b5fd1",
+    "/angular-system-solar/assets/icons/icon-192x192.png": "31b6d5840c14b44bb93eb2fdc3d58db2789222ce",
+    "/angular-system-solar/assets/icons/icon-384x384.png": "5c7a83b7c3b15f897570f8b25301568adda33830",
+    "/angular-system-solar/assets/icons/icon-512x512.png": "49e9c8260fcd63cad20851bae97843ceb9105e49",
+    "/angular-system-solar/assets/icons/icon-72x72.png": "564aabf08c4bf3ccf95744b5b91adc032313e10d",
+    "/angular-system-solar/assets/icons/icon-96x96.png": "2c9339bd53f667d1b086c18610d91d550202ed94",
+    "/angular-system-solar/assets/image/Tierra.png": "0b81399fbe7e5d8a715f8c4e3a30c0a44f7420d0",
+    "/angular-system-solar/assets/image/VENUS.png": "92c711d8e785562d21746526d9ab0b35cc2f9749",
+    "/angular-system-solar/assets/image/fondo.png": "8226b5b03fd251923a67367ffc373fdd940a4e91",
+    "/angular-system-solar/assets/image/jupiteR.png": "32a1078abd68bdde8ee7a013e00a7842c524ef62",
+    "/angular-system-solar/assets/image/marte.png": "693daf73020f6a81608e53addb527e95fd523bc7",
+    "/angular-system-solar/assets/image/mercurY.png": "826036b2f1a56ef79993e749b3e15e88699b5ca7",
+    "/angular-system-solar/assets/image/neptuno.png": "a9dfc136cb749bda3c55fb88ed7053c82cb29cdf",
+    "/angular-system-solar/assets/image/noplanet.png": "fbc8b6ca31c44e4008ab364f55793f0b1a509b25",
+    "/angular-system-solar/assets/image/saturno.png": "742195f28b6dadb3d769d789308d50d521c8b749",
+    "/angular-system-solar/assets/image/urano.png": "44ad4316f98aa1c60005aae7b2a67f0323727f62",
+    "/angular-system-solar/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/angular-system-solar/fondo.8b207337b32cf1831901.png": "8226b5b03fd251923a67367ffc373fdd940a4e91",
+    "/angular-system-solar/index.html": "b0d631052dfa1ab32e7a3163d5690f1d28c14a5c",
+    "/angular-system-solar/main.b80e8783019a6f28a3c3.js": "a3c90bb17dd701209dbaacb5bcaf607260f591de",
+    "/angular-system-solar/manifest.webmanifest": "c8ca29540e6152c432a7c84f6361d8624b5c5147",
+    "/angular-system-solar/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "/angular-system-solar/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/angular-system-solar/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

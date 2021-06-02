@@ -1,0 +1,46 @@
+#list_body {
+  background-image: url(../../../assets/image/fondo.png);
+  background-attachment: fixed;
+}
+h1 {
+  color: white;
+  font-size: 90px;
+}
+
+.body {
+  background-color: white;
+  width: 250px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    317deg,
+    rgba(255, 255, 255, 0.21126760563380287) 0%,
+    rgba(255, 255, 255, 0.7859154929577465) 100%
+  );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+}
+
+.body:hover img {
+  width: 250px;
+}
+.body img {
+  width: 180px;
+  position: relative;
+  top: -70px;
+  transition: width 0.1s;
+}
+.body div {
+  position: relative;
+  top: -20px;
+  color: white;
+}
+
+.body div p:first-child {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}

@@ -1,0 +1,17 @@
+<div class="body">
+    <div class="container d-flex flex-column align-items-center justify-content-center" *ngIf="body">
+        <a routerLink="/" class="align-self-start">Back</a>
+        <div class="dataPlanet d-flex align-items-center  justify-content-between flex-wrap" >
+            <img [src]="body.img" [alt]="body.id">
+            <div class="m-5">
+                <h1 class="">{{body.englishName}}</h1>
+                <div class="m-5">
+                    <p>Alternative name: {{body.alternativeName}}</p>
+                    <p>Discovered by: {{body.discoveredBy}}</p>
+                    <p>Discovery date: {{body.discoveryDate}}</p>
+                    <p>Gravity: {{body.gravity}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

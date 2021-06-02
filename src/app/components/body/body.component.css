@@ -1,0 +1,33 @@
+.body {
+  background-image: url(../../../assets/image/fondo.png);
+  background-attachment: fixed;
+  height: 100vmin;
+  color: white;
+}
+
+.container {
+  height: 100%;
+}
+
+.dataPlanet img {
+  width: 400px;
+}
+
+a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+  border-radius: 50px 50px;
+  box-shadow: 0px 0px 10px white;
+  transition: box-shadow 0.2s;
+}
+
+a:hover {
+  box-shadow: 0px 0px 30px white;
+}

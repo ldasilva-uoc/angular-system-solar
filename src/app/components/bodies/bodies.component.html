@@ -1,0 +1,15 @@
+<div id="list_body">
+    <div class="container">
+        <h1 class="text-center py-5">System Solar</h1>
+        <div class="bodies d-flex align-items-center flex-wrap py-5 justify-content-center">
+            <div *ngFor = "let body of bodies" class="body m-5 d-flex  flex-column align-items-center" [routerLink]="['/body',body.id]">
+                <img [src]="selectImage(body.id)" [alt]="body.id" >
+                <div class="d-flex  flex-column align-items-center">
+                    <p>{{body.englishName}}</p>
+                    <p *ngIf = "body.isPlanet">Planet</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
